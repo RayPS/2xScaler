@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asf locale="zh_CN" version="1.0" xmlns="http://ns.adobe.com/asf">
+  <str name="Configurator/ActionScript/Script/desc###13" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/ActionScript/Script/desc###16" translate="yes">
+    <val>X2</val>
+  </str>
+  <str name="Configurator/ActionScript/Script/desc###19" translate="yes">
+    <val>÷2</val>
+  </str>
+  <str name="Configurator/ActionScript/Script/desc###22" translate="yes">
+    <val>÷2</val>
+  </str>
+  <str name="Configurator/ActionScript/Script/desc###25" translate="yes">
+    <val>X2</val>
+  </str>
+  <str name="Configurator/ActionScript/Script/name###12" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/ActionScript/Script/name###15" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/ActionScript/Script/name###18" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/ActionScript/Script/name###21" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/ActionScript/Script/name###24" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Attribute/showNavBar/value###7" translate="yes">
+    <val>false</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###10" translate="yes">
+    <val>true</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###14" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###17" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###2" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###20" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###23" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###26" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###28" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###38" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###4" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Attribute/visible/value###6" translate="yes">
+    <val>True</val>
+  </str>
+  <str name="Configurator/Container/Canvas/desc" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Container/VDividedBox/desc" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/FlyoutMenu/about" translate="yes">
+    <val>关于</val>
+  </str>
+  <str name="Configurator/key_###1" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###11" translate="yes">
+    <val>&lt;html&gt; &lt;head&gt; &lt;/head&gt; &lt;body bgcolor="#535353" &gt; &lt;/body&gt;&lt;/html&gt;</val>
+  </str>
+  <str name="Configurator/key_###27" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###3" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###37" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###5" translate="yes">
+    <val>E:\DATA\Desktop\2xScaler\bg.png</val>
+  </str>
+  <str name="Configurator/key_###8" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/key_###9" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/watermark/htmlText" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/watermark/width" translate="yes">
+    <val>122</val>
+  </str>
+  <str name="Configurator/watermark/x" translate="yes">
+    <val>18</val>
+  </str>
+  <str name="Configurator/Widget/HTML/backwardToolTip" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/browseListToolTip" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/desc" translate="yes">
+    <val>HTML</val>
+  </str>
+  <str name="Configurator/Widget/HTML/escCloseText" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/forwardToolTip" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/homeText" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/loadingText" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/locationTextToolTip" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/netUnAvailablePromptDetail" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/netUnAvailablePromptDetail###34" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/netUnAvailablePromptTitle" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/netUnAvailablePromptTitle###33" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/offlinePromptDetail" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/offlinePromptDetail###32" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/offlinePromptTitle" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/offlinePromptTitle###31" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/reloadLabel" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/reloadLabel###36" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/reloadText" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/HTML/reloadText###35" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/Swf/desc" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/Swf/desc###29" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/Swf/noDisplayPrompt" translate="yes">
+    <val/>
+  </str>
+  <str name="Configurator/Widget/Swf/noDisplayPrompt###30" translate="yes">
+    <val/>
+  </str>
+  <str name="doclen" translate="yes">
+    <val>null</val>
+  </str>
+</asf>

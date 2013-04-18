@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpc defaultLocale="en_US" version="3" keySequence="38" currentLocale="en_US">
+  <product appid="PHSP" version="13" name="Photoshop CS6"/>
+  <target id="PHSP-13"/>
+  <ConfiguratorPanel name="2xScaler" width="140" height="80" init="doInit" close="doClose" persistent="true" extensionId="Rayps.com_2xScaler" extensionVersion="1.0.0" menuName="2xScaler" flyoutMenuAbout="$$$/Configurator/FlyoutMenu/about" minWidth="140" minHeight="80" normalIcon="res/icon.png" darkNormalIcon="res/icon2.png">
+    <onInit><![CDATA[]]></onInit>
+    <aboutBox><![CDATA[Double scale your current design with one click,helpful to the app designers.<br />http://rayps.com/<br /><br/><p>由 <a href='' target='_blank'>RayPS</a> 使用 <a href='http://labs.adobe.com/technologies/configurator/' target='_blank'>Configurator</a> 创建</p>]]></aboutBox>
+    <extensionDescription><![CDATA[Double scale your current design with one click,helpful to the app designers.]]></extensionDescription>
+    <extensionAuthor><![CDATA[RayPS]]></extensionAuthor>
+    <onClose><![CDATA[]]></onClose>
+    <eventListeners>
+      <function id="doInit" actionType="jsfunction" jsFunctionName="invoke_script">
+        <param id="onInit"/>
+      </function>
+      <function id="doClose" actionType="jsfunction" jsFunctionName="invoke_script">
+        <param id="onClose"/>
+      </function>
+    </eventListeners>
+    <html _itemId="widget_html" toolTip="$$$/Configurator/Widget/HTML/desc" backwardToolTip="$$$/Configurator/Widget/HTML/backwardToolTip" forwardToolTip="$$$/Configurator/Widget/HTML/forwardToolTip" browseListToolTip="$$$/Configurator/Widget/HTML/browseListToolTip" locationTextToolTip="$$$/Configurator/Widget/HTML/locationTextToolTip" offlinePromptTitle="$$$/Configurator/Widget/HTML/offlinePromptTitle" offlinePromptDetail="$$$/Configurator/Widget/HTML/offlinePromptDetail" netUnAvailablePromptTitle="$$$/Configurator/Widget/HTML/netUnAvailablePromptTitle" netUnAvailablePromptDetail="$$$/Configurator/Widget/HTML/netUnAvailablePromptDetail" loadingText="$$$/Configurator/Widget/HTML/loadingText" homeText="$$$/Configurator/Widget/HTML/homeText" reloadText="$$$/Configurator/Widget/HTML/reloadText" reloadLabel="$$$/Configurator/Widget/HTML/reloadLabel" escCloseText="$$$/Configurator/Widget/HTML/escCloseText" showNavBar="$$$/Configurator/Attribute/showNavBar/value###7" location="$$$/Configurator/key_###8" homeLocation="$$$/Configurator/key_###9" width="140" height="80" cfgVisible="$$$/Configurator/Attribute/visible/value###10" x="38" y="10" top="0" bottom="0" left="0" right="0">
+      <htmlText><![CDATA[$$$/Configurator/key_###11]]></htmlText>
+    </html>
+    <swf _itemId="widget_swf" toolTip="$$$/Configurator/Widget/Swf/desc###29" noDisplayPrompt="$$$/Configurator/Widget/Swf/noDisplayPrompt###30" offlinePromptTitle="$$$/Configurator/Widget/HTML/offlinePromptTitle###31" offlinePromptDetail="$$$/Configurator/Widget/HTML/offlinePromptDetail###32" netUnAvailablePromptTitle="$$$/Configurator/Widget/HTML/netUnAvailablePromptTitle###33" netUnAvailablePromptDetail="$$$/Configurator/Widget/HTML/netUnAvailablePromptDetail###34" reloadText="$$$/Configurator/Widget/HTML/reloadText###35" reloadLabel="$$$/Configurator/Widget/HTML/reloadLabel###36" url="$$$/Configurator/key_###37" width="1000" height="1000" cfgVisible="$$$/Configurator/Attribute/visible/value###38" x="0" y="0" bottom="0" right="0"/>
+    <ps_script _itemId="ps_actionscript_script" label="$$$/Configurator/ActionScript/Script/name###24" toolTip="$$$/Configurator/ActionScript/Script/desc###25" cfgVisible="$$$/Configurator/Attribute/visible/value###26" click="onClick" icon="ps_script" overIcon="ps_script_r" showIcon="true" mouseUpIcon="res/plus1.png" mouseOverIcon="res/plus2.png" mouseDownSkinIcon="res/plus3.png" x="11" y="11" horizontalCenter="-29" verticalCenter="0" width="57" height="56">
+      <script><![CDATA[if(app.documents.length>0){    var doc = app.activeDocument    plus()    }else{}function plus(){    customResizeImage(doc.width*2,doc.height*2)    }function minus(){    customResizeImage(doc.width/2,doc.height/2)    }function customResizeImage(Width,Height) {var desc = new ActionDescriptor();if(activeDocument.width > activeDocument.height){desc.putUnitDouble( charIDToTypeID('Wdth'), charIDToTypeID('#Pxl'), Width );}else{desc.putUnitDouble( charIDToTypeID('Hght'), charIDToTypeID('#Pxl'), Height);}desc.putBoolean( stringIDToTypeID('scaleStyles'), true );desc.putBoolean( charIDToTypeID('CnsP'), true );desc.putEnumerated( charIDToTypeID('Intr'), charIDToTypeID('Intp'), charIDToTypeID('Bcbc') );executeAction( charIDToTypeID('ImgS'), desc, DialogModes.NO );};]]></script>
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="script"/>
+        </function>
+      </eventListeners>
+    </ps_script>
+    <ps_script _itemId="ps_actionscript_script" label="$$$/Configurator/ActionScript/Script/name###21" toolTip="$$$/Configurator/ActionScript/Script/desc###22" cfgVisible="$$$/Configurator/Attribute/visible/value###23" click="onClick" icon="ps_script" overIcon="ps_script_r" showIcon="true" mouseUpIcon="res/minus1.png" mouseOverIcon="res/minus2.png" mouseDownSkinIcon="res/minus3.png" horizontalCenter="28" verticalCenter="0" x="72" y="-6" width="57" height="56">
+      <script><![CDATA[if(app.documents.length>0){    var doc = app.activeDocument    minus()    }else{}function plus(){    customResizeImage(doc.width*2,doc.height*2)    }function minus(){    customResizeImage(doc.width/2,doc.height/2)    }function customResizeImage(Width,Height) {var desc = new ActionDescriptor();if(activeDocument.width > activeDocument.height){desc.putUnitDouble( charIDToTypeID('Wdth'), charIDToTypeID('#Pxl'), Width );}else{desc.putUnitDouble( charIDToTypeID('Hght'), charIDToTypeID('#Pxl'), Height);}desc.putBoolean( stringIDToTypeID('scaleStyles'), true );desc.putBoolean( charIDToTypeID('CnsP'), true );desc.putEnumerated( charIDToTypeID('Intr'), charIDToTypeID('Intp'), charIDToTypeID('Bcbc') );executeAction( charIDToTypeID('ImgS'), desc, DialogModes.NO );};]]></script>
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="script"/>
+        </function>
+      </eventListeners>
+    </ps_script>
+  </ConfiguratorPanel>
+</gpc>
