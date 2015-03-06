@@ -1,10 +1,10 @@
-···
+~~~
   This old project will no longer be updated.
   Please use [LayerCraft](http://lab.rayps.com/lc/) instead.
   It's a free plugin to export layers and the same functions of this project are included.
   Thanks!
                   - Ray 2015-03-07 01:39:23
-···
+~~~
 
 
 
